@@ -32,7 +32,7 @@ const App = () => {
           style={styles.scrollView}>
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-               <Text style={styles.highlight}>Techmelo on github</Text>
+               <Text style={styles.highlight}>Techmelo  umair github</Text>
             </View>
           </View>
         </ScrollView>
