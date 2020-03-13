@@ -37,7 +37,7 @@ const App = () => {
             </View>
             <View>
               <TouchableOpacity style={{alignSelf:'center',backgroundColor:'#d3d3d3'}} onPress={()=>alert('you press me')}>
-                <Text style={{color:Colors.black}}>Press me</Text>
+                <Text style={{color:Colors.black}}>Press me not </Text>
               </TouchableOpacity>
             </View>
           </View>
