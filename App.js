@@ -14,6 +14,7 @@ import {
   View,
   Text,
   StatusBar,
+  TouchableOpacity,
 } from 'react-native';
 
 import {
@@ -32,7 +33,12 @@ const App = () => {
           style={styles.scrollView}>
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-               <Text style={styles.highlight}>Techmelo  umair github</Text>
+               <Text style={styles.highlight}>Techmelo umair 123 github</Text>
+            </View>
+            <View>
+              <TouchableOpacity style={{alignSelf:'center',backgroundColor:'#d3d3d3'}} onPress={()=>alert('you press me')}>
+                <Text style={{color:Colors.black}}>Press me</Text>
+              </TouchableOpacity>
             </View>
           </View>
         </ScrollView>
@@ -42,12 +48,15 @@ const App = () => {
 };
 
 const styles = StyleSheet.create({
+  
   scrollView: {
     backgroundColor: Colors.lighter,
   },
+
   body: {
     backgroundColor: Colors.white,
   },
+
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
